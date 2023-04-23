@@ -1,33 +1,34 @@
 {
-  "name": "jssf-javascript-special-forces",
+  "name": "book-goit",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://MikhailoSalko.github.io/JSSF-JavaScript-Special-Forces",
+  "homepage": "https://github.com/OleksandrPM/book-goit",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /JSSF-JavaScript-Special-Forces/"
+    "build": "parcel build src/*.html --public-url /book-goit/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/OleksandrPM/book-goit"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oleksandr Moskaliuk <olekspm@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/OleksandrPM/book-goit/issues"
   },
   "dependencies": {
     "@firebase/app": "^0.9.7",
     "axios": "^1.3.5",
     "firebase": "^9.19.1",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.6"
+    "notiflix": "^3.2.6",
+    "svgo": "^3.0.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "assert": "^2.0.0",
-    "buffer": "^6.0.3",
+    "buffer": "^5.5.0",
     "console-browserify": "^1.2.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
